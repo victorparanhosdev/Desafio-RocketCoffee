@@ -18,72 +18,89 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    width: min(90vw, 900px);
+    height: 100vh;
+    width: 100vw;
     margin: auto;
     background: url("/assets/blur-1.png"), url("/assets/blur-2.png");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, top right;
 }
+
 a {
     text-decoration: none;
 }
 
+
 /* CABEÇALHO ==================================== */
 
+
 header {
-    margin-top: 2.5rem; 
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+   padding: 3rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   border: 1px solid white;
          
 }
-
-menu {    
-    margin: 0 5rem;
-       
+.logo {
+    border: 1px solid white;
 }
 
+.menu-meio {
+    padding: 0 5rem;
+    border: 1px solid white;
+
+}
 .menu-meio ul{
     display: flex;
     align-items: center;
     justify-content: center; 
-    list-style: none;   
+    list-style: none;  
+     
 
 }
 
 .menu-meio ul li a{
     color: var(--text-color);
-    font-weight: 400;
+    font-weight: 100;
     margin: 0 1.0rem;
     padding: 0.5rem;
-    font-size: 0.9rem;    
+    font-size: 0.9rem;  
+    border: 1px solid white;  
   
 }
 
+
 .menu-direito {
-    
     color: var(--text-color);
-    font-weight: 700;
-    padding: 0.5rem 2.2rem;
+    font-weight: 600;
+    padding: 0.7rem 2.3rem;
     border: 1px solid var(--button);
     text-transform: uppercase;
     border-radius: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     white-space: nowrap;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    
+   
 }
 
 /* CONTEUDO=======================*/
 main {
-    margin: auto;
+    border: 1px solid white;
+ 
     
 }
-main h1 {
+h1 {
     color: var(--text-color);
-    font-size: 5rem;
     font-weight: 700;
     text-align: center;
+    white-space: nowrap;
 
+
+
+}
+.img-rocket {
+    display: block;
+    margin: auto;
 }
