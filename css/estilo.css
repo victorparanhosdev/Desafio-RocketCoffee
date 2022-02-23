@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6; 
+       
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    width: min(90vw, 900px);
+    margin: auto;
+    background: url("/assets/blur-1.png"), url("/assets/blur-2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;
+}
+a {
+    text-decoration: none;
+}
+
+/* CABEÇALHO ==================================== */
+
+header {
+    margin-top: 2.5rem; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+         
+}
+
+menu {    
+    margin: 0 5rem;
+       
+}
+
+.menu-meio ul{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    list-style: none;   
+
+}
+
+.menu-meio ul li a{
+    color: var(--text-color);
+    font-weight: 400;
+    margin: 0 1.0rem;
+    padding: 0.5rem;
+    font-size: 0.9rem;    
+  
+}
+
+.menu-direito {
+    
+    color: var(--text-color);
+    font-weight: 700;
+    padding: 0.5rem 2.2rem;
+    border: 1px solid var(--button);
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTEUDO=======================*/
+main {
+    margin: auto;
+    
+}
+main h1 {
+    color: var(--text-color);
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+
+}
