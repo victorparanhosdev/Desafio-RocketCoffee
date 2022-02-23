@@ -18,35 +18,58 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    height: 100vh;
-    width: 100vw;
+    background-color: var(--backgrond);
     margin: auto;
-    background: url("/assets/blur-1.png"), url("/assets/blur-2.png");
-    background-repeat: no-repeat, no-repeat;
-    background-position: bottom left, top right;
+    width: 100vw;
+    height: 100vh;
+   
 }
 
 a {
     text-decoration: none;
 }
 
+article {   
+    width: 100%;
+    height: 100%;
+    background: url("/assets/blur-1.png"), url("/assets/blur-2.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, top right;  
+    
+}
+
+div.principal {
+    width: 80%;
+    margin: auto;
+}
+
 
 /* CABEÇALHO ==================================== */
-
 
 header {
    padding: 3rem;
    display: flex;
-   justify-content:center;
+   justify-content: space-evenly;
    align-items: center;
-   border: 1px solid white;
-         
+
 }
 
-.menu-meio {
-    border: 1px solid white;
-    padding: 0 7rem;
+.logo, .menu-meio {
+    padding: 0 2.3rem;
+    
+}
 
+.menu-direito {
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 0.7rem 2.3rem;
+    border: 1px solid var(--button);
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
+   
+   
 }
 .menu-meio ul{
     display: flex;
@@ -59,44 +82,23 @@ header {
 .menu-meio ul li a{
     color: var(--text-color);
     font-weight: 100;
-    margin: 0 1.0rem;
+    margin: 0 .5rem;
     padding: 0 0.8rem;
-    font-size: 0.9rem;  
-    border: 1px solid white;
-     
+    font-size: 0.9rem; 
 }
 
-
-.menu-direito {
-    color: var(--text-color);
-    font-weight: 600;
-    padding: 0.7rem 2.3rem;
-    border: 1px solid var(--button);
-    text-transform: uppercase;
-    border-radius: 0.5rem;
-    font-size: 0.7rem;
-    white-space: nowrap;
-    
-    
-   
-}
 
 /* CONTEUDO=======================*/
-main {
-    border: 1px solid white;
- 
-    
-}
+
 h1 {
     color: var(--text-color);
     font-weight: 700;
     text-align: center;
     white-space: nowrap;
-
-
+    font-size: 5rem;
 
 }
 .img-rocket {
     display: block;
-    margin: auto;
+    margin: auto;    
 }
