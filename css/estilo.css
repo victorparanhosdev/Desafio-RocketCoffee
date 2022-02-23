@@ -52,7 +52,6 @@ header {
 
 .logo, .menu-meio {
     padding: 0 4.5rem;
-    
 }
 
 .menu-direito {
@@ -64,8 +63,11 @@ header {
     border-radius: 0.5rem;
     font-size: 0.7rem;
     white-space: nowrap;
-   
-   
+
+}
+
+.menu-direito:hover {
+    background-color: var(--border);
 }
 .menu-meio ul{
     display: flex;
@@ -81,6 +83,9 @@ header {
     margin: 0 .5rem;
     padding: 0 0.8rem;
     font-size: 0.9rem; 
+}
+.menu-meio ul li a:hover {
+    color: var(--button);
 }
 
 
