@@ -119,6 +119,75 @@ main {
 
 /*RESPONSIVIDADE =========================================================*/
 
-@media (max-width: 2560px){
+@media (max-width: 1050px){
+        header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu-direito {
+            
+            margin-top: 5rem;
+        }
+        .logo-desktop {
+            display: none;
+        }
+}
+
+@media (max-width: 800px) {
+        article {
+            background: url("/assets/blur-mobile.png") no-repeat bottom;
+            background-size: cover;
+        }
+        html{
+            font-size: 80%;
+        }
+        .img-rocket{
+            height: 300px;
+            
+        }
     
+}
+
+@media (max-width:611px){
+    .img-rocket{
+        height: 200px;
+    }
+
+   
+}
+
+@media (max-width:425px){
+    .menu-meio {
+        display: none;
+    }
+    .img-rocket{
+        height: 150px;
+    }
+
+    .great-coffee, .great-code {
+        font-size: 3rem;
+    }
+    .modal {
+        width: 40px;
+        height: 30px;
+    }
+    .one, .two, .thre {
+        width: 100%;
+        height: 3px;
+        background-color: white;
+        margin: 5px
+
+    }
+    .modal.on {
+        position: absolute;
+        top:0;
+        left: 0;
+        z-index: 10;
+        width: 100vw;
+        height: 50vh;
+        background-color: #8257E5;
+    }
+   
 }
