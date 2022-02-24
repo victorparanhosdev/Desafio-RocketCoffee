@@ -19,7 +19,6 @@
 body {
     font-family: 'Manrope', sans-serif;
     background-color: var(--backgrond);
-    width: 100vw;
     height: 100vh;
    
 }
@@ -32,27 +31,30 @@ article {
     background: url("/assets/blur-1.png") no-repeat, url("/assets/blur-2.png") no-repeat;
     background-position: bottom left, top right; 
     
+    
 }
 
-div.principal {
-    max-width: 1000px;
-    margin: auto;
-}
 
 
 /* CABEÇALHO ==================================== */
 
 header {
-   padding: 3rem;
+   padding: 3rem 0;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
+   margin: auto;
+    width: 90%;
+    max-width: 1200px;
+     
+  
 
 }
 
-.logo, .menu-meio {
+.logo-desktop, .menu-meio {
     padding: 0 4.5rem;
 }
+
 
 .menu-direito {
     color: var(--text-color);
@@ -63,7 +65,7 @@ header {
     border-radius: 0.5rem;
     font-size: 0.7rem;
     white-space: nowrap;
-
+    
 }
 
 .menu-direito:hover {
@@ -96,7 +98,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
+    width: 90%;
+    max-width: 1200px;
+    margin: auto; 
 }
 .great-coffee {
     color: var(--text-color);
@@ -109,4 +114,14 @@ main {
     color: var(--backgrond);
     white-space: nowrap;
     text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
+}
+
+
+/*RESPONSIVIDADE =========================================================*/
+
+@media (min-width: 2560px){
+   
+    html {
+        font-size: 200%;
+    }
 }
