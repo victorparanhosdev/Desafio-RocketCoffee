@@ -29,11 +29,9 @@ a {
 }
 
 article {
-    background: url("/assets/blur-1.png") no-repeat, url("/assets/blur-2.png") no-repeat;
+    background: url("../assets/blur-1.png") no-repeat, url("../assets/blur-2.png") no-repeat;
     background-position: bottom left, top right; 
-   
-    
-    
+       
 }
 
 
@@ -41,16 +39,14 @@ article {
 /* CABEÇALHO ==================================== */
 
 header {
-   padding: 3rem 0;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-   margin: auto;
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
     width: 90%;
-    max-width: 1200px;
-     
-  
-
+    max-width: 1000px;
+    
 }
 
 .logo-desktop, .menu-meio {
@@ -102,7 +98,7 @@ main {
     justify-content: center;
     align-items: center; 
     width: 90%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto; 
 }
 .great-coffee {
