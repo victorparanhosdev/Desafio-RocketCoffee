@@ -119,9 +119,6 @@ main {
 
 /*RESPONSIVIDADE =========================================================*/
 
-@media (min-width: 2560px){
-   
-    html {
-        font-size: 200%;
-    }
+@media (max-width: 2560px){
+    
 }
