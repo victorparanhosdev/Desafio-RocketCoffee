@@ -15,9 +15,11 @@
         display: none;
     }
     article {
-        background: url("/assets/blur-mobile.png");
+        background: url("../assets/blur-mobile.png");
         background-position: bottom;
     }
+    
+
 
    
     .menu-mobile {
