@@ -21,8 +21,6 @@ body {
     font-family: 'Manrope', sans-serif;
     background: url("../assets/blur-1.png") no-repeat, url("../assets/blur-2.png") no-repeat, var(--backgrond);
     background-position: bottom left, top right; 
-    
-
 }
 
 
