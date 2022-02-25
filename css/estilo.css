@@ -24,7 +24,7 @@ body {
 }
 
 
-a {
+a, .menu-mobile a {
     text-decoration: none;
 }
 
@@ -42,9 +42,15 @@ header {
     display: none;
 }
 
+.menu-mobile{
+    display: none;
+    transform: translateX(100%);
+    transition: all 0.8s;
+
+}
 .logo-desktop, .menu-meio {
     padding: 0 4.5rem;
- }
+}
 
 .menu-direito {
     color: var(--text-color);

@@ -1,5 +1,6 @@
 const botaoMobile = document.querySelector(".botao-menumobileopen");
-const menuMeio = document.querySelector(".menu-meio");
+const menuMobile = document.querySelector(".menu-mobile");
+
 let show = true;
 
 
@@ -8,13 +9,13 @@ botaoMobile.addEventListener("click", () => {
     if(show) {
         
         botaoMobile.setAttribute('src', "./assets/menu-buguer-close.svg")
-        menuMeio.classList.add("on")
-        //document.body.style.background = "red"
+        menuMobile.classList.add("on")
+        document.body.style.overflow = "hidden"
         show = false
     } else {
         botaoMobile.setAttribute('src', "./assets/menu-buguer-open.svg")
-        menuMeio.classList.remove("on")
-        //document.body.style.background = "green"
+        menuMobile.classList.remove("on")
+        document.body.style.overflow = "initial"
         show = true
     }
 
