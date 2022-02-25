@@ -14,10 +14,11 @@
     .logo-desktop {
         display: none;
     }
-    article {
-        background: url("../assets/blur-mobile.png");
-        
+   body {
+        background: url("../assets/blur-mobile.png") no-repeat, black; 
+        background-position: bottom; 
     }
+    
        
     .menu-mobile {
         width: 40px;
@@ -42,7 +43,6 @@
         top:0;
         background-color: var(--button);
         z-index: 5;
-
     }
 
  
@@ -75,8 +75,7 @@
         font-size: 1rem;
         border: 1px solid black;
         padding: 0 1rem;
-        border-radius: 1rem;
-        
+        border-radius: 1rem;    
         
     }
 
