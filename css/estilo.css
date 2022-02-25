@@ -45,8 +45,9 @@ header {
 .menu-mobile{
     display: none;
     transform: translateX(100%);
-    transition: all 0.8s;
+    transition: all 800ms;
 
+    
 }
 .logo-desktop, .menu-meio {
     padding: 0 4.5rem;
