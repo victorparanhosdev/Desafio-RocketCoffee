@@ -20,7 +20,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     background: url("../assets/blur-1.png") no-repeat, url("../assets/blur-2.png") no-repeat, var(--backgrond);
-    background-position: bottom left, top right; 
+    background-position: bottom left, top right;    
 }
 
 
@@ -31,20 +31,20 @@ a {
 /* CABEÇALHO ==================================== */
 
 header {
-    padding: 3rem 0;
+    padding: 2rem 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: auto;
-    width: 90%;
     max-width: 1000px;
-    
+}
+.logo-mobile, .botao-menumobileopen, .conteudo-mobile {
+    display: none;
 }
 
 .logo-desktop, .menu-meio {
     padding: 0 4.5rem;
-}
-
+ }
 
 .menu-direito {
     color: var(--text-color);
@@ -66,6 +66,7 @@ header {
     align-items: center;
     justify-content: center; 
     list-style: none; 
+  
     
 }
 
@@ -80,20 +81,16 @@ header {
     color: var(--button);
 }
 
-
 /* CONTEUDO=======================*/
 
 
 main {
-    width: 90%;
     max-width: 1000px;
     margin: auto;    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-
 }
 .great-coffee {
     color: var(--text-color);
@@ -107,5 +104,3 @@ main {
     white-space: nowrap;
     text-shadow: -1px -1px 0 var(--button), 1px -1px 0 var(--button), -1px 1px 0 var(--button), 1px 1px 0 var(--button);
 }
-
-  

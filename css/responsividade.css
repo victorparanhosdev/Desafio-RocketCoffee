@@ -1,6 +1,125 @@
 /*RESPONSIVIDADE =========================================================*/
 
-@media (max-width: 414px){
+@media (max-width: 768px) {
+   .logo-desktop, .menu-meio, .menu-direito {
+       display: none;
+   }
+   .logo-mobile, .botao-menumobileopen {
+       display: block;
+       margin: 0 2rem;
+             
+   }
+   
+   .botao-menumobileopen {
+       height: 1.0rem;
+       cursor: pointer;
+       
+   }
+   header {
+       padding: 2rem 0;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       border-bottom: 1px solid var(--border-menu-mobile);
+   }
+   
+   .img-rocket {
+        width: 100vw;
+   }
+   body {
+       background: url("../assets/blur-mobile.png") no-repeat bottom, var(--backgrond);
+       background-size: cover;
+   }
+   .conteudo-mobile {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin: 4rem 2rem;    
+       
+   }
+   .conteudo-mobile p {
+       color: white;
+       font-size: 2rem;
+       margin: 2rem;
+       text-align: center;
+       padding: 0.5rem;
+             
+    }
+
+    .conteudo-mobile a {
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 0.7rem 2.3rem;
+    border: 1px solid var(--button);
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    
+
+    }
+
+    main h1 {
+        margin: 0 2rem;
+    }
+    .menu-meio.on {
+        display: block;
+        position: absolute;
+    }
+}
+@media (max-width: 700px){
+
+    html {
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 600px){
+
+    html {
+        font-size: 80%;
+    }
+}
+
+@media (max-width: 515px){
+
+    html {
+        font-size: 70%;
+    }
+}
+@media (max-width: 470px){
+
+    html {
+        font-size: 60%;
+    }
+}
+@media (max-width: 392px){
+
+    html {
+        font-size: 50%;
+    }
+}
+
+@media (max-width: 340px){
+
+    html {
+        font-size: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media (max-width: 414px){
     .great-coffee, .great-code {
         font-size: 3rem;
     }
@@ -103,4 +222,4 @@
 
 
 }
-      
+*/
